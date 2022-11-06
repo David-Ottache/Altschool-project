@@ -1,11 +1,44 @@
+.AuthPage{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: column;
+
+}
+
+
 .form-element {
-    font-size: 1.3rem;
-    line-height: 1.2;
-   
+    display:flex;
+    width:60em;
+    justify-content:center;
+    align-items: center;
+    flex-direction:column;
+    margin-right: 25px; 
   }
 
-input{
-    font-size: 1.3rem;
+
+
+  input{
+    
+    width:100%;
+    text-align:center;
+    margin:20px 20px;
+    font-size: 1.1rem;
     line-height: 1.2;
-   
-}
+    border-radius: 2px;
+    
+  }
+
+  .btn-type{
+    margin:20px 0px 0px 50px;
+    font-size:2.0em;
+    border-radius:2px;
+    
+    
+  }
+
+
+
+
+
+  

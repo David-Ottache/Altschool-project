@@ -22,16 +22,16 @@ export const Authentication = () => {
 
      };
   return (
-    <div>
+    <div className='AuthPage'>
       <h1>Authentication Portal</h1>
       <div>
         <div>
           <img width="400" alt="" />
         </div>
-        <div className ="form-element">
-          <form onSubmit={handleValidate}>
+        <div >
+          <form className ="form-element" onSubmit={handleValidate}>
             <div>
-              <label>Email address</label>
+              {/* <label>Email address</label> */}
               <input
                 type="email"
                 value={user}
@@ -40,7 +40,7 @@ export const Authentication = () => {
               />
             </div>
             <div>
-              <label>Password</label>
+              {/* <label>Password</label> */}
               <input
                 type="password"
                 value={pass}
@@ -49,7 +49,7 @@ export const Authentication = () => {
               />
             </div>
 
-            <button type="submit">
+            <button className='btn-type'type="submit">
               Submit
             </button>
           </form>

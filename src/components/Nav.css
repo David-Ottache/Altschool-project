@@ -1,0 +1,18 @@
+.header{width:100%;
+        background-color:cyan;
+        height:60px;
+        border-radius:10px;
+        display:flex;
+        align-items:center;
+        justify-content:center;}
+
+/* .nav{height:auto;} */
+
+.nav-link{padding: 0px 40px 0px 40px;
+          font-size:35px;
+         text-decoration:none;
+         color:blue;
+         
+
+         
+        }     

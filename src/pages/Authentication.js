@@ -1,5 +1,6 @@
 import React,{useState} from 'react'
 import { useNavigate } from 'react-router-dom';
+import './Authentication.css'
 
 
 export const Authentication = () => {
@@ -27,7 +28,7 @@ export const Authentication = () => {
         <div>
           <img width="400" alt="" />
         </div>
-        <div>
+        <div className ="form-element">
           <form onSubmit={handleValidate}>
             <div>
               <label>Email address</label>
